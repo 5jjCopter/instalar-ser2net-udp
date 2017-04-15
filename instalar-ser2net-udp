@@ -1,0 +1,7 @@
+cd /home/pi
+sudo wget https://github.com/5jjCopter/ser2net/archive/master.zip
+sudo -s
+unzip master.zip
+rm master.zip
+cd ser2net-master
+chmod 775 install.sh
